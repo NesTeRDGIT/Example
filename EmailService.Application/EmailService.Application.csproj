@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abstraction\Abstraction.csproj" />
+    <ProjectReference Include="..\EmailService.Domain\EmailService.Domain.csproj" />
+    <ProjectReference Include="..\zms.Common.Application\zms.Common.Application.csproj" />
+    <ProjectReference Include="..\zms.Common.SharedKernel\zms.Common.SharedKernel.csproj" />
+    <ProjectReference Include="..\zms.Generic.EmailService.Domain\zms.Generic.EmailService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
